@@ -14,14 +14,20 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  background-image: url(./Assets/faceless-stranger-banner-unsplash.jpeg);
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-container {
+  background-image: url(./Assets/grey-texture-background.jpg);
+  /* background-color: #282c34; */
 }
 
 .App-link {
